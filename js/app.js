@@ -30,7 +30,7 @@ function secPos(section) {
   return section.getBoundingClientRect();
 }
 function isActive(position) {
-  if (position.top < 0 && position.top > -200) {
+  if (position.top < 70 && position.top > -200) {
     return true;
   } else {
     return false;
