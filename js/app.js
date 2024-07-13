@@ -49,7 +49,7 @@ document.addEventListener("scroll", () => {
   });
 });
 
-// comment section
+// comments section
 const emailReg = /^[\w\.-]+@[\w\.-]+\.[a-z]+$/; //a regular expression to check the validilty of the email name
 const subBtn = document.getElementById("submit-btn");
 const allInp = document.forms[0].querySelectorAll("[required]");
@@ -98,14 +98,6 @@ subBtn.addEventListener("click", (evnt) => {
         paraComment.style.height = "80px";
       } else {
         showBtn.remove();
-        // showBtn.addEventListener("click", function showLess() {
-
-        //   if (!isShowMore) {
-        //     paraComment.style.height = "auto";
-        //     showBtn.textContent = "show More";
-        //     isShowMore = true;
-        //   }
-        // });
       }
       showBtn.addEventListener("click", function () {
         // in each click it checks  the value of the button button
