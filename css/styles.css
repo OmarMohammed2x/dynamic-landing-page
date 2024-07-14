@@ -343,6 +343,7 @@ body>main>section:last-child #appended-comments .comment span {
 body>main>section:last-child #appended-comments .comment h3 {
     margin-bottom: 0;
     text-transform: capitalize;
+    overflow-wrap: break-word;
 }
 
 body>main>section:last-child #appended-comments .comment::after {
